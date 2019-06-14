@@ -27,3 +27,7 @@ app.UseSwagger();
             });
 ```
 * Run project and navigate to `https://localhost:5001/swagger` URL and it will show your swagger API.
+
+* Now to generate `swagger.json` file, go to url `https://localhost:5001/swagger/v1/swagger.json`. It should list swagger.json content. Copy the content from browser and save in new file `swagger.json` in solution directory.
+* Install `swagger-codegen` package. Follow specific installation procedure based on your OS configuration. 
+https://github.com/swagger-api/swagger-codegen#compatibility
