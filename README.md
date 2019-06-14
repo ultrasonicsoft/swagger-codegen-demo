@@ -98,3 +98,39 @@ export class AppComponent {
 ```
 
 Now you don't need to write Models and Services again and again for your REST API. Just start using it!
+
+
+# Generating code for different clients
+
+You can generate client code for below client languages by specifying `-l <lang-code>` parameter.
+
+`swagger-codegen generate -i <path-to-swagger.json> -l <lang-code> -o <output-path>`
+
+csharp
+csharp-dotnet2
+dynamic-html
+html
+html2
+java
+jaxrs-cxf-client
+jaxrs-cxf
+inflector
+jaxrs-cxf-cdi
+jaxrs-spec
+jaxrs-jersey
+jaxrs-di
+jaxrs-resteasy-eap
+jaxrs-resteasy
+spring
+nodejs-server
+openapi
+openapi-yaml
+kotlin-client
+kotlin-server
+php
+python
+scala
+scala-akka-http-server
+swift3
+swift4
+typescript-angular
