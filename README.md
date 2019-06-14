@@ -106,6 +106,7 @@ You can generate client code for below client languages by specifying `-l <lang-
 
 `swagger-codegen generate -i <path-to-swagger.json> -l <lang-code> -o <output-path>`
 
+```
 csharp
 csharp-dotnet2
 dynamic-html
@@ -134,3 +135,4 @@ scala-akka-http-server
 swift3
 swift4
 typescript-angular
+```
